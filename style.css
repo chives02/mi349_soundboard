@@ -1,0 +1,36 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: tan;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.btn {
+  background-color: sienna;
+  border-radius: 5px;
+  border: none;
+  color: whitesmoke;
+  margin: 10%;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+  background-color:darkred;
+  color: darkblue;
+}
+
+
+
